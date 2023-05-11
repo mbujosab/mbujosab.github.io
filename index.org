@@ -1,0 +1,80 @@
+#+title:  Página web de Marcos Bujosa en GitHub
+#+author: Marcos Bujosa
+#+email:  mbujosab@ucm.es
+#+date:   30-09-2022
+#+LANGUAGE: es-es
+
+# +STARTUP: showall
+# +setupfile: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+setupfile: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+#+OPTIONS: toc:nil
+
+#+begin_comment
+Algunas indicaciones sobre para el que escribe este código
+#+end_comment
+
+* Información general
+
+En esta página mostraré /tarará/ y mostraré /tararí/
+
+** COMMENT Sección oculta ¡Qué misterio!
+
+Esto no se ve... qué conveniente
+
+
+** Material de interés
+
+Casi todo está en el propio GitHub
+
+  1. [[https://github.com/mbujosab/CursoDeAlgebraLineal][Libro de mates]] (pinchar en [[https://github.com/mbujosab/CursoDeAlgebraLineal/blob/main/libro.pdf][libro.pdf]] y descargar)
+  2. [[https://github.com/mbujosab/MatematicasII][Material de clase y exámenes pasados]]
+  3. [[https://github.com/mbujosab/nacal-latex-package][Paquete de $\LaTeX{}$ con la notación usada en el material]]
+  4. [[https://github.com/mbujosab/nacallib][Librería en Python para el curso de mates]] (el paquete se instala desde [[https://pypi.org/project/nacal/][aquí]]
+  5. ... y aún hay más...y ¿para qué?... visto lo visto para nada.
+
+*** Otras fuentes de información
+
+  Por ejemplo la [[https://www.ucm.es/fundamentos-analisis-economico2/algebra-2][web]] de la asignatura
+
+  Añadamos una foto:
+  
+#+attr_html: :width 600px
+file:./3BloquesEvaluacion.png
+  
+  
+** COMMENT Enlaces a los repositorios con las fuentes
+
+Bla bla bla (puedo decir lo que quiera... que no se vé... por ahora)
+
+
+** Investigación
+
+Uy... aquí no hay nada... ji, ji.
+
+** Miembros del equipo
+
+Por ahora estoy solito... espero que se apunte alguien, o será muy
+aburrido.
+
+
+* Información particular
+
+Estoy poco inspirado... pero esto es solo un ensayo para ver si a
+Elena le puede servir para montar una página para su equipo...
+  
+** TODO Temas _*Importantes*_ a tratar en el grupo de investigación [1/4]
++ [ ] Confirmar un día para una comilona
++ [ ] Confirmar un día para una cenita
++ [ ] Decidir qué peli veremos este finde
++ [X] Y por último, hacer como que hacemos algo
+
+Vaya... parece que la última tarea es la primera que hemos acabado.
+   
+
+* código para refinar la exportación                               :noexport:
+#+NAME: set-ignored-headlines-tags 
+#+begin_src emacs-lisp :var filename="default" :exports none :results raw
+;(setq org-export-exclude-tags  '("noexport" "mdignore"))
+#+end_src
+
+
