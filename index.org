@@ -51,14 +51,8 @@ Casi todo está en el propio GitHub
 
   Añadamos una imagen:
   
-# +attr_html: :width 600px
-# file:./3BloquesEvaluacion.png
-
-# +attr_html: :width 300px
-# [[https://www.ucm.es/themes/ucm16/media/img/logo.png][https://www.ucm.es/themes/ucm16/media/img/logo.png]]
-
-#+attr_html: :width 300px
-https://www.ucm.es/themes/ucm16/media/img/logo.png
+  #+attr_html: :width 300px
+  https://www.ucm.es/themes/ucm16/media/img/logo.png
   
 
 ** Investigación
@@ -68,7 +62,10 @@ investigamos:
 
 *¡Último descubrimiento!*
 
-Si $a_i=i$, $\forall i\in\mathbb{N}$ hemos descubierto que $\sum_{i=1}^4 a_i = 10$.
+Esta semana hemos descubierto que: si $a_i=i$, $\forall i\in\mathbb{N}$:
+$$\sum_{i=1}^4 a_i = 10$$.
+
+~Si, si... ¡podemos usar $\LaTeX{}$!~
 
 ** Miembros del equipo
 
@@ -124,6 +121,8 @@ Bli, bli
 
 ** La info más importante
 
+*** Para saber más de org mode
 Visita [[https://orgmode.org/]]
 
-Y si puedes usa [[https://www.gnu.org/software/emacs/][emacs]], el mejor editor de mundo!
+*** Recomendación importante para tu vida como PDI
+Y si puedes usa [[https://www.gnu.org/software/emacs/][emacs]] para todo ¡es el mejor editor de mundo!
