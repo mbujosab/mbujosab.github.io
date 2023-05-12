@@ -1,17 +1,29 @@
 #+title:  Página web de Marcos Bujosa en GitHub
 #+author: Marcos Bujosa
 #+email:  mbujosab@ucm.es
-#+date:   30-09-2022
 #+LANGUAGE: es-es
 
-# +STARTUP: showall
+# ###########
+# ESTO DA EL FORMATO FINAL DE LA PÁGINA WEB VÉASE [[https://olmon.gitlab.io/org-themes/]]
 # +setupfile: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+setupfile: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
-#+OPTIONS: toc:nil
+# ##########
 
 #+begin_comment
-Algunas indicaciones sobre para el que escribe este código
+Algunas indicaciones o comentarios dentro de este código, pero que no
+se ven en la web.
+
+Lo que se escribe en este documento es el contenido estructurado (es
+decir, hay que centrarse en qué información se incluye y cómo se
+estructura dicha información).
+
+El formato es secundario, se puede diseñar uno específico, pero hay
+muchas opciones enla web que se pueden usar). Véase por ejemplo
+[[https://olmon.gitlab.io/org-themes/]]... (pero hay más).
+
+También es exportable a pdf, word, markdown, etc. 
 #+end_comment
+
 
 * Información general
 
@@ -20,6 +32,7 @@ En esta página mostraré /tarará/ y mostraré /tararí/
 ** COMMENT Sección oculta ¡Qué misterio!
 
 Esto no se ve... qué conveniente
+
 
 
 ** Material de interés
@@ -36,20 +49,26 @@ Casi todo está en el propio GitHub
 
   Por ejemplo la [[https://www.ucm.es/fundamentos-analisis-economico2/algebra-2][web]] de la asignatura
 
-  Añadamos una foto:
+  Añadamos una imagen:
   
-#+attr_html: :width 600px
-file:./3BloquesEvaluacion.png
-  
-  
-** COMMENT Enlaces a los repositorios con las fuentes
+# +attr_html: :width 600px
+# file:./3BloquesEvaluacion.png
 
-Bla bla bla (puedo decir lo que quiera... que no se vé... por ahora)
+# +attr_html: :width 300px
+# [[https://www.ucm.es/themes/ucm16/media/img/logo.png][https://www.ucm.es/themes/ucm16/media/img/logo.png]]
 
+#+attr_html: :width 300px
+https://www.ucm.es/themes/ucm16/media/img/logo.png
+  
 
 ** Investigación
 
-Uy... aquí no hay nada... ji, ji.
+Uy... aquí no hay nada... ji, ji. Pero podemos aparentar que
+investigamos:
+
+*¡Último descubrimiento!*
+
+Si $a_i=i$, $\forall i\in\mathbb{N}$ hemos descubierto que $\sum_{i=1}^4 a_i = 10$.
 
 ** Miembros del equipo
 
@@ -71,10 +90,40 @@ Elena le puede servir para montar una página para su equipo...
 Vaya... parece que la última tarea es la primera que hemos acabado.
    
 
-* código para refinar la exportación                               :noexport:
-#+NAME: set-ignored-headlines-tags 
-#+begin_src emacs-lisp :var filename="default" :exports none :results raw
-;(setq org-export-exclude-tags  '("noexport" "mdignore"))
-#+end_src
+* Información muy útil
 
+** Sección
 
+Bla
+
+*** Subsección
+
+Bla Bla
+
+**** subsubsección
+
+Bla Bla Bla
+
+***** subsubsección
+
+Je, je.. ya no pienso repetirme...
+
+***** subsubsección
+
+Bli, bli 
+
+**** Una tabla
+
+|-----+--------+---------------|
+| Las | tablas | con  org mode |
+|-----+--------+---------------|
+| son | muy    | sencillas     |
+| ¿o  | no     | te lo parece? |
+| A   | mi     | si            |
+|-----+--------+---------------|
+
+** La info más importante
+
+Visita [[https://orgmode.org/]]
+
+Y si puedes usa [[https://www.gnu.org/software/emacs/][emacs]], el mejor editor de mundo!
